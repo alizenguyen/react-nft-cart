@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.card-container {
+    background-color: #15263f;
+    border-radius: 8px;
+    width: 350px;
+    padding: 25px 10px;
+}
+
+.card-container .nft-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.card-container .card-info {
+    margin-left: 15px;
+}
+
+.card-info .nft-description {
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 26px;
+    text-align: left;
+    color: #8BACD9;
+}
+
+.card-info .coin-description {
+    display: flex;
+    margin-right: 15px;
+}
+
+.coin-description .time {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: #8BACD9;
+}
+
+.coin-description .coin {
+    display: flex;
+    align-items: center;
+    color: #00FFF8;
+} 
+
+.coin-description .coin .coin-text {
+    font-size: 16px;
+    font-weight: 700;
+}
