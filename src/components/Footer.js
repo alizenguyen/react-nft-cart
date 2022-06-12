@@ -20,7 +20,7 @@ function Footer() {
             <div style={avatarBorderStyle}>
                 <img src={avatar} alt="user avatar" style={avatarStyle}/>
             </div>
-            <p>Creation of Alize Nguyen</p>
+            <p className="text">Creation of <span className="user">Alize Nguyen</span></p>
         </div>
     );
 }

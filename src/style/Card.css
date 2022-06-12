@@ -1,10 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .card-container {
+    position: relative;
     background-color: #15263f;
     border-radius: 8px;
     width: 350px;
     padding: 25px 10px;
+}
+
+.card-container .overlay {
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    border-radius: 8px;
+    background-color: rgb(0, 255, 248, 0);
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
+    cursor: pointer;
+}
+
+.card-container .overlay:hover {
+    background-color: rgb(0, 255, 248, 0.53);
+}
+
+.overlay .view-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .card-container .nft-title {
@@ -13,6 +40,11 @@
     font-weight: 600;
     text-align: left;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-container .nft-title:hover {
+    color: #00FFF8;
 }
 
 .card-container .card-info {

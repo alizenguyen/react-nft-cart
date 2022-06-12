@@ -7,3 +7,17 @@
     margin-right: 15px;
     border-top: 1px solid #2E405A;
 }
+
+.footer-container .text {
+    font-size: 16px;
+    color: #8BACD9;
+}
+
+.footer-container .user {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-container .user:hover {
+    color: #00FFF8;
+}
