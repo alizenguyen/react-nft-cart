@@ -19,6 +19,10 @@
     margin-left: 15px;
 }
 
+.card-info {
+    margin-bottom: 5px;
+}
+
 .card-info .nft-description {
     font-size: 18px;
     font-weight: 300px;
